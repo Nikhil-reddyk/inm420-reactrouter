@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+/*main menu*/
+.cyber-logo {
+  width: 70%;
+  pointer-events: none;
+}
+.cyber-menu{
+  font-family: 'Mingzat', sans-serif;
+}
+.cyber-menu ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right:28px;
+}
+
+.cyber-menu li a {
+  color:#fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+/*home page*/
+.cybertext {
+  padding:35px;
+  text-align: justify;
+}
+
+.hero {
+  width: 100%;
+}
+
+.App-header {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*Project page*/
+.project-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;;
+}
+.project1-img {
+  flex:1;
+
+}
+
+.project-img {
+  width:75%;
+  text-align: right;
+}
+.project1-text {
+  flex: 1;
+  text-align: left;
+}
+
+/*Contact page*/ 
+
+.contact-text{
+  text-align: left;
+  margin-left: 10%;
+  width:50%;
+ 
+
+}
+/*Form*/
+input,
+button,
+textarea {
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  background-image: none;
+  background-color: #dadad3;
+  box-shadow: none;
+  padding: 5px;
+}
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
+textarea {
+  min-height: 50px;
+  resize: vertical;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.contact-card {
+  border: 1px solid black;
+  max-width: 200px;
+  background-color: #fff;
+  margin: 0 auto;
+  box-shadow: -0.6rem 0.6rem 0 rgba(29, 30, 28, 0.26);
+
+}
+.contact-header {
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+.contact-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-body__message {
+  margin-top: 10px;
+}
+.contact-body button {
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
+
+
+/*For Desktop Version -----------------------------*/
+@media (min-width: 576px) {
+  .cyber-logo {
+    width: 20%;
+    pointer-events: none;
+  }
+
+
+  .hero {
+    width: auto;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;;
+  }
+
+  .contact-card {
+    border: 1px solid black;
+    max-width: 500px;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: -0.6rem 0.6rem 0 rgba(29, 30, 28, 0.26);
+  }
+
+
+
+
+
+}
+
